@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    margin: 5px 0;
+}
+
+.section-title{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.header{
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+}
+
+.container{
+    margin: 10px 20px;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 250px;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    display: inline-block;
+}
+
+.card-active{
+    border: 3px solid rgb(1, 212, 1);
+    box-shadow: 5px 5px 5px rgb(1, 212, 1);
+}
+
+.card-image{
+    margin: 10px 0;
+    width: 150px;  
+}
+
+.card-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+.card-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.btn{
+    margin: 10px; 
+    padding: 5px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: #005ddf;
+    color: white;
+}
+
+.btn-danger{
+    background-color: #df0000;
+    color: white;
+}
+
+.btn-warning{
+    background-color: #df8d00;
+    color: white;
+}
