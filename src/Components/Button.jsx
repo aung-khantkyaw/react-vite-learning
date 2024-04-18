@@ -16,7 +16,7 @@ function Button(){
     }
 
     return (
-        <div className="container">
+        <div>
             <button onClick={() => greeting("Aung")} className="btn btn-primary">Greeting</button>
             <button onDoubleClick={(e) => stop(e)} className="btn btn-danger">Stop</button>
             <button className="btn btn-warning">Click Me!</button>

@@ -81,3 +81,38 @@ hr {
     background-color: #df8d00;
     color: white;
 }
+
+.counter{
+    text-align: center;
+}
+
+.counter-display{
+    font-family: monospace;
+    font-size: 64px;
+}
+
+.form{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    max-width: 250px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.input-group{
+    margin: 10px auto;
+}
+
+.input-group input, select, textarea{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.input-group p{
+    font-weight: bold;
+}
+
+input[type=radio]{
+    width: auto;
+}

@@ -1,7 +1,10 @@
 import Button from "./Components/Button";
 import Card from "./Components/Card"
+import Counter from "./Components/Counter";
 import Footer from "./Components/Footer"
+import FormOnChange from "./Components/FormOnChange";
 import Header from "./Components/Header"
+import Hook from "./Components/Hook";
 import List from "./Components/List"
 
 function App() {
@@ -34,11 +37,29 @@ function App() {
                 <List list={languages} category="Languages"/> <hr />
                 <List />
             </div>
-            <div>
+            <div className="container">
                 <span className="section-title">
                     Button Component
                 </span>
                 <Button />
+            </div>
+            <div className="container">
+                <span className="section-title">
+                    Hook
+                </span>
+                <Hook/>
+            </div>
+            <div className="container">
+                <span className="section-title">
+                    Counter
+                </span>
+                <Counter/>
+            </div>
+            <div className="container">
+                <span className="section-title">
+                    OnChange
+                </span>
+                <FormOnChange/>
             </div>
             <Footer/>
         </>
